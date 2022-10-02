@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+nav {
+    height: 90px;
+    color: rgb(0, 64, 138);
+    background-color: rgb(0, 64, 138);
+}
+
+.logo {
+    background-color: white;
+    padding: 0.4rem;
+    width: 8rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+.logo .color {
+    background-color: rgb(0, 64, 138);
+    width: 45%;
+    padding: 0.2rem;
+    position: relative;
+    left: 4rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    
+}
+
+.logo .color p {
+    position: relative;
+    right: 4rem;
+   
+}
+.logo .color p span {
+    color: white;
+    word-spacing: 40px;
+}
+
+.message {
+    background-color: white;
+    padding: 2rem;
+    width: 9rem;
+    text-align: center;
+    position: relative;
+    left:1000px;
+    bottom: 130px;
+    align-items: center;
+    border-radius: 0 0 0.4rem 0.4rem;
+}
+.list {
+    color: white;
+    width: 600px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    position:relative; 
+    left: 300px;
+    bottom: 20px;
+    list-style: none;
+}
+.list .item{
+    color:white;
+    font-weight: bold;
+}
+ul .list li a{
+    color: white;
+    font-weight: bold;
+}
+.photo .head{
+    position: relative;
+    display: flex;
+    padding-left: 8rem;
+    bottom: 20vh;
+
+   
+    color: white;
+}
+.data {
+    width: 35rem;
+    height: 50vh;
+    padding-left: 8rem;
+}
+.button {
+    padding: 1rem 4rem;
+    color: white;
+    background-color: rgb(0, 64, 138);
+    position: relative;
+    top: 10vh;
+    font-weight: bold;
+    border-radius: 8px;
+
+}
+.right{
+    display: flex;
+    justify-content:flex-end;
+    position: relative;
+    bottom: 51vh;
+    right: 5rem;
+
+}
+footer{
+    height: 70vh;
+    position:relative;
+    bottom: 20vh;
+    background-color:rgb(0, 64, 138);
+}
+.logo2 {
+    background-color: white;
+    padding: 0.5rem;
+    width: 10rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    position: relative;
+    
+    left: 100px;
+    top: 20px;
+}
+.logo2 .color {
+    background-color: rgb(0, 64, 138);
+    width: 45%;
+    padding: 0.2rem;
+    position: relative;
+    left: 4rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.logo2 .color p {
+    position: relative;
+    right: 4rem;
+   
+}
+.logo2 .color p span {
+    color: white;
+    word-spacing: 40px;
+}
+.list1{
+
+    padding-left: 100px;
+    justify-content: space-between;
+    align-items: center;
+    position:relative; 
+    top: 80px;
+ /* left: 100px; */
+    list-style: none;
+}
+.list1 .items{
+    color: white;
+    list-style:none;
+    text-decoration: none;
+    font-weight: bold;
+}
+.list2 {
+    /* padding: 20px; */
+    justify-content: space-between;
+    align-items: center;
+    position:relative; 
+    /* left: 100px; */
+    list-style: none;
+    float: right;
+    right: 65rem;
+    bottom: 20vh;
+   
+    
+}
+.list2 .items{
+    color:white;
+    list-style:none;
+    text-decoration: none;
+    font-weight: bold;
+}
+.paragrap{
+    
+    width: 300px;
+    height: 50vh;
+    color: white;
+    position: relative;
+    left: 400px;    
+    bottom: 20vh;
+}
+.info {
+    position: relative;
+    justify-content: center;
+    padding-left: 50rem;
+    bottom: 75vh;
+    color: white;
+
+}
+.info .but{
+    padding: 1rem 10rem;
+    position:relative;
+    top:5vh;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
